@@ -1,0 +1,5 @@
+pydantic
+pytest
+pytest-mock
+requests      # Adicionar esta linha
+responses     # Adicionar esta linha
