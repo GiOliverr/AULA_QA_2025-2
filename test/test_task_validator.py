@@ -22,6 +22,6 @@ def test_sem_prioridade():
         validar_tarefa(tarefa)
 
 def test_prioridade_invalida():
-    tarefa = {"titulo": "Ler livro", "prioridade": "urgente"}
+    tarefa = {"titulo": "Ler livro", "prioridade": "urgentes"}
     with pytest.raises(ValueError, match="baixa', 'media' ou 'alta'"):
         validar_tarefa(tarefa)
